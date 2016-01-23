@@ -39,8 +39,8 @@ user_pref("media.fragmented-mp4.ffmpeg.enabled", true);
 user_pref("media.fragmented-mp4.gmp.enabled", true);
 
 // GMP
-user_pref("media.gmp-gmpopenh264.version", 1.1);
-user_pref("media.gmp-manager.log", false);
+//user_pref("media.gmp-gmpopenh264.version", 1.1);
+//user_pref("media.gmp-manager.log", false);
 
 // Tracks
 user_pref("media.track.enabled", true);
