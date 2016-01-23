@@ -20,7 +20,7 @@ user_pref("media.apple.mp4.enabled", true);
 user_pref("media.raw.enabled", true);
 user_pref("media.webm.enabled", true);
 
-user_pref("media.use-blank-decoder", true)
+user_pref("media.use-blank-decoder", false)
 
 // MediaSource
 user_pref("media.mediasource.enabled", true);
