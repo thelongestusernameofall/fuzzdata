@@ -20,10 +20,12 @@ user_pref("media.apple.mp4.enabled", true);
 user_pref("media.raw.enabled", true);
 user_pref("media.webm.enabled", true);
 
+user_pref("media.use-blank-decoder", true)
+
 // MediaSource
 user_pref("media.mediasource.enabled", true);
 user_pref("media.mediasource.allow_init_moov", true);
-user_pref("media.mediasource.ignore_codec", true); // true or false
+user_pref("media.mediasource.ignore_codec", true);
 user_pref("media.mediasource.webm.enabled", true);
 user_pref("media.mediasource.mp4.enabled", true);
 user_pref("media.mediasource.youtubeonly", false);
@@ -32,8 +34,8 @@ user_pref("media.eme.enabled", true);
 // Fragmented MP4
 user_pref("media.fragmented-mp4.enabled", true);
 user_pref("media.fragmented-mp4.exposed", true);
-user_pref("media.fragmented-mp4.use-blank-decoder", true); // true or false
-user_pref("media.fragmented-mp4.ffmpeg.enabled", true); // true or false
+user_pref("media.fragmented-mp4.use-blank-decoder", true);
+user_pref("media.fragmented-mp4.ffmpeg.enabled", true);
 user_pref("media.fragmented-mp4.gmp.enabled", true);
 
 // GMP
@@ -54,10 +56,10 @@ user_pref("media.peerconnection.enabled", true);
 user_pref("media.peerconnection.video.h264_enabled", true);
 user_pref("media.peerconnection.aec_enabled", true);
 user_pref("media.getusermedia.aec_enabled", true);
-user_pref("media.peerconnection.agc_enabled", false); // true or false
-user_pref("media.getusermedia.agc_enabled", false); // true or false
+user_pref("media.peerconnection.agc_enabled", false);
+user_pref("media.getusermedia.agc_enabled", false);
 user_pref("media.peerconnection.noise_enabled", false);
-user_pref("media.peerconnection.identity.enabled", true); // true or false
+user_pref("media.peerconnection.identity.enabled", true);
 user_pref("media.peerconnection.default_iceservers", '[{"url": "stun:23.21.150.121"}]');
 user_pref("media.peerconnection.use_document_iceservers", true);
 user_pref("media.webrtc.debug.log_file", "");
@@ -65,7 +67,7 @@ user_pref("media.webrtc.debug.log_file", "");
 // WebSocket
 user_pref("network.websocket.enabled", true);
 user_pref("network.websocket.allowInsecureFromHTTPS", true);
-user_pref("network.websocket.delay-failed-reconnects", false); // true or false
+user_pref("network.websocket.delay-failed-reconnects", false);
 
 // DOM Server Sent Events
 user_pref("dom.server-events.enabled", true);
@@ -102,20 +104,19 @@ user_pref("layers.acceleration.force-enabled", true);
 user_pref("webgl.disabled", false);
 user_pref("webgl.force-enabled", false);
 user_pref("webgl.disable-angle", false);
-user_pref("webgl.bypass-shader-validation", false); // true of false
-user_pref("webgl.shader_validator", true); // true or false
-user_pref("webgl.msaa-force", false); // true of false - osx / linux
-user_pref("gfx.prefer-mesa-llvmpipe", false);
-user_pref("webgl.prefer-native-gl", false);
-
+user_pref("webgl.bypass-shader-validation", false);
+user_pref("webgl.shader_validator", true);
 user_pref("webgl.can-lose-context-in-foreground", true);
 user_pref("webgl.lose-context-on-heap-minimize", false);
 user_pref("webgl.lose-context-on-memory-pressure", false);
-
 user_pref("webgl.force-layers-readback", false);
 user_pref("webgl.prefer-16bpp", false);
-
 user_pref("webgl.verbose", false);
+user_pref("webgl.disable-angle", false);
+user_pref("webgl.msaa-force", false);
+user_pref("webgl.prefer-native-gl", false);
+user_pref("gfx.prefer-mesa-llvmpipe", false);
+user_pref("gl.multithreaded", true);
 
 // WebGL Extensions
 user_pref("webgl.enable-privileged-extensions", true);
@@ -139,7 +140,7 @@ user_pref("dom.vr.enabled", true);
 
 // PDF.js
 user_pref("pdfjs.firstRun", false);
-user_pref("pdfjs.enableWebGL", false);
+user_pref("pdfjs.enableWebGL", true);
 user_pref("pdfjs.previousHandler.alwaysAskBeforeHandling", true);
 user_pref("pdfjs.previousHandler.preferredAction", 4);
 
@@ -225,3 +226,5 @@ user_pref("browser.ssl_override_behavior", 1);
 user_pref("browser.displayedE10SPrompt", -1);
 user_pref("browser.tabs.remote.autostart", false);
 user_pref("browser.tabs.remote.desktopbehavior", true);
+user_pref("accessibility.ipc_architecture.enabled", false);
+user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
