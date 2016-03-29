@@ -225,3 +225,6 @@ user_pref("browser.ssl_override_behavior", 1);
 user_pref("browser.displayedE10SPrompt", -1);
 user_pref("browser.tabs.remote.autostart", false);
 user_pref("browser.tabs.remote.desktopbehavior", true);
+user_pref('browser.tabs.remote.autostart', false);
+user_pref('browser.tabs.remote.autostart.1', false);
+user_pref('browser.tabs.remote.autostart.2', false);
