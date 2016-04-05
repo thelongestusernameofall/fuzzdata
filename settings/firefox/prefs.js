@@ -97,6 +97,9 @@ user_pref("canvas.focusring.enabled", true);
 user_pref("canvas.customfocusring.enabled", true);
 user_pref("canvas.filters.enabled", true);
 
+// PushLayer/PopLayer
+user_pref("gfx.content.use-native-pushlayer", true);
+
 // Layers
 user_pref("layers.acceleration.force-enabled", true);
 
