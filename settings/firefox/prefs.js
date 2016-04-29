@@ -155,6 +155,7 @@ user_pref("media.webspeech.recognition.enable", true);
 // WebAudio
 user_pref("media.webaudio.enabled", true);
 user_pref("media.audio_data.enabled", true);
+user_pref("media.useAudioChannelAPI", true);
 
 // ArchiveReader
 user_pref("dom.archivereader.enabled", true);
@@ -225,6 +226,9 @@ user_pref("browser.ssl_override_behavior", 1);
 // IPC / E10s
 user_pref("browser.displayedE10SPrompt", -1);
 user_pref("browser.tabs.remote.autostart", false);
+user_pref('browser.tabs.remote.autostart', false);
+user_pref('browser.tabs.remote.autostart.1', false);
+user_pref('browser.tabs.remote.autostart.2', false);
 user_pref("browser.tabs.remote.desktopbehavior", true);
 user_pref("accessibility.ipc_architecture.enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
