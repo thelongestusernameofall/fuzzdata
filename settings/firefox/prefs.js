@@ -96,6 +96,10 @@ user_pref("canvas.path.enabled", true);
 user_pref("canvas.focusring.enabled", true);
 user_pref("canvas.customfocusring.enabled", true);
 user_pref("canvas.filters.enabled", true);
+user_pref("canvas.capturestream.enabled", true);
+
+// PushLayer/PopLayer
+user_pref("gfx.content.use-native-pushlayer", true);
 
 // Layers
 user_pref("layers.acceleration.force-enabled", true);
@@ -230,5 +234,9 @@ user_pref('browser.tabs.remote.autostart', false);
 user_pref('browser.tabs.remote.autostart.1', false);
 user_pref('browser.tabs.remote.autostart.2', false);
 user_pref("browser.tabs.remote.desktopbehavior", true);
+user_pref('browser.tabs.remote.autostart', false);
+user_pref('browser.tabs.remote.autostart.1', false);
+user_pref('browser.tabs.remote.autostart.2', false);
 user_pref("accessibility.ipc_architecture.enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
+
