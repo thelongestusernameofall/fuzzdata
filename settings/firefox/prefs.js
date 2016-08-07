@@ -166,6 +166,13 @@ user_pref("dom.archivereader.enabled", true);
 // IndexDB
 user_pref("dom.indexedDB.experimental", true);
 
+// WebVR
+user_pref("dom.vr.add-test-devices", 1);
+user_pref("dom.vr.poseprediction.enabled", false);
+//user_pref("gfx.vr.mirror-textures", false);
+user_pref("layout.frame_rate", 75);
+user_pref("full-screen-api.allow-trusted-requests-only", false);
+
 
 //
 // Behaviour Settings
