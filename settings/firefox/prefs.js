@@ -63,6 +63,8 @@ user_pref("media.peerconnection.identity.enabled", true);
 user_pref("media.peerconnection.default_iceservers", '[{"url": "stun:23.21.150.121"}]');
 user_pref("media.peerconnection.use_document_iceservers", true);
 user_pref("media.webrtc.debug.log_file", "");
+user_pref("media.getusermedia.screensharing.enabled", true);
+//user_pref("media.getusermedia.screensharing.allowed_domains", "");
 
 // WebSocket
 user_pref("network.websocket.enabled", true);
