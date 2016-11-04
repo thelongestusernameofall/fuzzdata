@@ -123,6 +123,7 @@ user_pref("webgl.msaa-force", false);
 user_pref("webgl.prefer-native-gl", false);
 user_pref("gfx.prefer-mesa-llvmpipe", false);
 user_pref("gl.multithreaded", true);
+user_pref("gfx.blocklist.all", -1);
 
 // WebGL Extensions
 user_pref("webgl.enable-privileged-extensions", true);
@@ -175,6 +176,9 @@ user_pref("dom.vr.poseprediction.enabled", false);
 user_pref("layout.frame_rate", 75);
 user_pref("full-screen-api.allow-trusted-requests-only", false);
 
+// FlyWeb
+user_pref("dom.flyweb.enabled", true);
+user_pref("gecko.handlerService.allowRegisterFromDifferentHost", true);
 
 //
 // Behaviour Settings
