@@ -171,7 +171,6 @@ user_pref("dom.indexedDB.experimental", true);
 // WebVR
 user_pref("dom.vr.enabled", true);
 user_pref("dom.vr.puppet.enabled", true);
-user_pref("dom.vr.add-test-devices", 1);
 user_pref("dom.vr.poseprediction.enabled", false);
 user_pref("full-screen-api.allow-trusted-requests-only", false);
 
