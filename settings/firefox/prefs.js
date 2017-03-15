@@ -237,6 +237,7 @@ user_pref("security.warn_submit_insecure", false);
 user_pref("security.ssl.enable_false_start", true);
 user_pref("browser.ssl_override_behavior", 1);
 //user_pref("security.default_personal_cert", "Select Automatically");
+user_pref("devtools.selfxss.count", 999);
 
 // IPC / E10s
 user_pref("browser.displayedE10SPrompt", -1);
