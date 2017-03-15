@@ -143,7 +143,6 @@ user_pref("dom.icc.enabled", true);
 user_pref("dom.fetch.enabled", true);
 user_pref("dom.identity.enabled", true);
 user_pref("dom.imagecapture.enabled", true);
-user_pref("dom.vr.enabled", true);
 
 // PDF.js
 user_pref("pdfjs.firstRun", false);
@@ -170,10 +169,10 @@ user_pref("dom.archivereader.enabled", true);
 user_pref("dom.indexedDB.experimental", true);
 
 // WebVR
+user_pref("dom.vr.enabled", true);
+user_pref("dom.vr.puppet.enabled", true);
 user_pref("dom.vr.add-test-devices", 1);
 user_pref("dom.vr.poseprediction.enabled", false);
-//user_pref("gfx.vr.mirror-textures", false);
-user_pref("layout.frame_rate", 75);
 user_pref("full-screen-api.allow-trusted-requests-only", false);
 
 // FlyWeb
