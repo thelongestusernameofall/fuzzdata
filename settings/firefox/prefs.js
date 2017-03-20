@@ -229,6 +229,7 @@ user_pref("extensions.getAddons.cache.enabled", false); // metadata update
 user_pref("lightweightThemes.update.enabled", false); // persona update
 user_pref("plugins.update.url", "");
 user_pref("toolkit.telemetry.enabled", false);
+user_pref("toolkit.telemetry.rejected", true);
 
 // Security & Permissions
 user_pref("general.warnOnAboutConfig", false);
