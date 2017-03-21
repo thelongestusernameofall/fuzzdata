@@ -93,6 +93,7 @@ user_pref("gfx.color_management.rendering_intent", 0);
 // Canvas
 user_pref("gfx.canvas.azure.backends", "skia"); // cg, direct2d, skia, cairo
 user_pref("gfx.canvas.azure.accelerated", true);
+user_pref("gfx.offscreencanvas.enabled", true);
 user_pref("canvas.hitregions.enabled", true);
 user_pref("canvas.path.enabled", true);
 user_pref("canvas.focusring.enabled", true);
@@ -249,4 +250,3 @@ user_pref('browser.tabs.remote.autostart.1', false);
 user_pref('browser.tabs.remote.autostart.2', false);
 user_pref("accessibility.ipc_architecture.enabled", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);
-
