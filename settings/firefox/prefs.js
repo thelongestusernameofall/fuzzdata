@@ -19,7 +19,6 @@ user_pref("media.apple.mp4.enabled", true);
 // Video Codecs
 user_pref("media.raw.enabled", true);
 user_pref("media.webm.enabled", true);
-
 user_pref("media.use-blank-decoder", false);
 
 // MediaSource
@@ -37,10 +36,6 @@ user_pref("media.fragmented-mp4.exposed", true);
 user_pref("media.fragmented-mp4.use-blank-decoder", true);
 user_pref("media.fragmented-mp4.ffmpeg.enabled", true);
 user_pref("media.fragmented-mp4.gmp.enabled", true);
-
-// GMP
-//user_pref("media.gmp-gmpopenh264.version", 1.1);
-//user_pref("media.gmp-manager.log", false);
 
 // Tracks
 user_pref("media.track.enabled", true);
@@ -180,6 +175,19 @@ user_pref("full-screen-api.allow-trusted-requests-only", false);
 user_pref("dom.flyweb.enabled", true);
 user_pref("gecko.handlerService.allowRegisterFromDifferentHost", true);
 
+// Presentation
+user_pref("dom.presentation.enabled", true);
+
+// Gamepad
+user_pref("dom.gamepad.enabled", true);
+
+// IntersectionObserver
+user_pref("dom.IntersectionObserver.enabled", true);
+
+// PDFium
+user_pref("pdfium.enabled", true);
+
+
 //
 // Behaviour Settings
 //
@@ -233,6 +241,7 @@ user_pref("toolkit.telemetry.enabled", false);
 user_pref("toolkit.telemetry.rejected", true);
 
 // Security & Permissions
+user_pref("fuzzing.enabled", true);
 user_pref("general.warnOnAboutConfig", false);
 user_pref("security.fileuri.strict_origin_policy", false);
 user_pref("security.warn_submit_insecure", false);
