@@ -168,6 +168,7 @@ user_pref("dom.indexedDB.experimental", true);
 user_pref("dom.vr.enabled", true);
 user_pref("dom.vr.test.enabled", true);
 user_pref("dom.vr.puppet.enabled", true);
+user_pref("dom.vr.require-gesture", false);
 user_pref("dom.vr.poseprediction.enabled", false);
 user_pref("full-screen-api.allow-trusted-requests-only", false);
 
